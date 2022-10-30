@@ -1,0 +1,6 @@
+Feature: Google Main Page
+  Scenario: Should navigate to the main page
+    When i go to The "google.com"
+    Then URL shouid be "https://google.com"
+
+
